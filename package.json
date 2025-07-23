@@ -1,0 +1,19 @@
+{
+  "name": "bullmq-repro",
+  "version": "1.0.0",
+  "scripts": {
+    "docker:start:dev": "docker compose up -d",
+    "docker:stop:dev": "docker compose down",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "bullmq": "^5.56.5",
+    "rrule-rust": "^2.0.3"
+  },
+  "devDependencies": {
+    "@lokalise/tsconfig": "^2.0.0",
+    "@types/node": "^22.16.5",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
