@@ -8,12 +8,12 @@
   },
   "dependencies": {
     "bullmq": "^5.56.5",
-    "rrule": "^2.8.1"
+    "rrule-rust": "^2.0.3"
   },
   "devDependencies": {
-    "@types/node": "^22.16.5",
     "@lokalise/tsconfig": "^2.0.0",
-    "vitest": "^3.2.4",
-    "typescript": "^5.8.3"
+    "@types/node": "^22.16.5",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
   }
 }

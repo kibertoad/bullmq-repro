@@ -1,7 +1,7 @@
 import { setTimeout } from 'node:timers/promises'
 import { Queue, Worker, RepeatOptions, Job } from 'bullmq';
 import * as cron from 'cron-parser';
-import { RRuleSet } from 'rrule';
+import { RRuleSet } from 'rrule-rust';
 
 const customRepeatStrategy = (
     millis: number,
